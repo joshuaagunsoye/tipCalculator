@@ -1,0 +1,156 @@
+
+body
+{
+background-color: rgb(187, 213, 221);
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#btn button
+{
+    width: 100px;
+    height: 30px;
+    background-color: hsl(183, 100%, 15%);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: larger;
+    text-align: center;
+}
+#btn button:hover{
+
+    background-color:cyan;
+    color: black;
+    cursor: pointer;
+    
+
+}
+p{
+    font-family: 'Space Mono', monospace;}
+
+#second-section
+{
+   
+   width: 500px;
+   border-radius: 10px;
+}
+#container
+{
+   
+   display: flex;
+   padding: 20px;
+   width: 900px;
+   background-color: whitesmoke;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+}
+.first
+{
+   flex: 1;
+}
+.second
+{
+    margin-left: 470px;
+    margin-top: -300px;
+   
+    border-color: black;
+    width: 250px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);
+}
+#amount
+{
+    display: flex;
+}
+.tip-amount
+{
+    margin-top: -7px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+   
+}
+.person
+{
+    margin-top:0px;
+    font-size: 11px;
+    color:hsl(184, 14%, 43%) ;
+    
+    
+}
+.total
+{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+ 
+}
+#amount input
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}
+.btn-holder
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    width: 220px;
+
+}
+.btn-holder button
+{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(11, 179, 179);
+    font-family: 'Space Mono', monospace;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.btn-holder button:hover{
+
+    background-color:hsl(183, 100%, 15%);
+    color: black;
+    cursor: pointer;
+    
+
+}
+.input-field
+{
+    font-size: 30px;
+    color:rgb(11, 179, 179); ;
+}
+
+
+
+
+
+

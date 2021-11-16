@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <title>Tip calculator app</title>
+
+</head>
+
+<body>
+
+
+<div id="container">
+  <div class="first">
+        <p>Bill</p> 
+            <div style="max-width:400px">
+              <div class="input-icons">
+            <i class="fa fa-dollar icon"></i>
+                <input id="input-bill" class="input-field" type="number">
+          </div>
+          <p>Select Tip %</p>
+          <div id="btn">
+            <button value="5" id="btn-5">5%</button>
+            <button value="10" id="btn-10">10%</button>
+            <button value="15" id="btn-15">15%</button><br>
+            <button value="25" id="btn-25">25%</button>
+            <button value="50" id="btn-50">50%</button>
+            <button id="btn-custom">Custom</button>
+          </div>
+          <p>Number of People</p>
+          <div style="max-width:400px">
+          <div class="input-icons">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="number">
+  </div>
+        
+
+
+<div class="second">
+<div id="amount">
+  <div>
+    <p class="tip-amount">Tip Amount</p>
+    <p class="person">/ person</p>
+  </div>
+  <div>
+    <input id="tipp" type="number"></input>
+  </div>
+
+</div>
+  
+<div id="amount">
+  <div>
+    <p class="total">Total</p>
+    <p class="person">/ person</p>
+  </div>    
+  <div>
+    <input type="number"></input>
+  </div> 
+
+</div>        
+       
+       
+        
+        <div class="btn-holder"><button class="reset" type="reset">RESET</button></div>
+        </div>
+</div>
+  
+ 
+  
+
+ 
+<script src="calculator.js"></script>  
+</body>
+</html>
